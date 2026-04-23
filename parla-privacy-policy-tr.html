@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Parla · Gizlilik Politikası</title>
+<style>
+  body{max-width:780px;margin:2em auto;padding:0 1em;font:16px/1.6 -apple-system,Helvetica,Arial,sans-serif;color:#111}
+  h1{border-bottom:3px solid #E30A17;padding-bottom:.3em}
+  h2{margin-top:2em;color:#E30A17}
+  code{background:#f2f2f2;padding:.1em .4em;border-radius:3px;font-size:.9em}
+  .meta{color:#666;font-size:.85em;margin-bottom:2em}
+</style>
+</head>
+<body>
+
+<h1>Parla · Gizlilik Politikası</h1>
+<p class="meta">Son güncelleme: 23 Nisan 2026 · Geliştirici: Bufraz Software · İletişim: <a href="mailto:bufrazsoftware@gmail.com">bufrazsoftware@gmail.com</a></p>
+
+<p>Parla, futbol taraftarlarını bir araya getirerek telefon ışıklarıyla senkronize tribün gösterileri yapmalarını sağlayan bir mobil uygulamadır. Bu metin, uygulamayı kullanırken hangi verilerin toplandığını, neden toplandığını ve nasıl korunduğunu kısaca anlatır.</p>
+
+<h2>Topladığımız Veriler</h2>
+
+<h3>Hesap bilgileri</h3>
+<ul>
+<li><b>E-posta adresi:</b> Hesap oluşturmak, giriş yapmak ve önemli bildirimler göndermek için.</li>
+<li><b>Kullanıcı adı:</b> Uygulama içinde kimliğinizi temsil eder. Diğer kullanıcılara görünür.</li>
+<li><b>Şifre:</b> Yalnızca <code>bcrypt</code> ile özetlenmiş (hash'lenmiş) hâliyle sunucuda saklanır. Orijinal şifrenize bizim dahil hiçbir sistem erişemez.</li>
+<li><b>Sosyal giriş kimlikleri:</b> Google veya Apple hesabınızla giriş yaparsanız ilgili sağlayıcının bize ilettiği e-posta ve kullanıcı kimliği saklanır. Sosyal giriş şifrenizi biz görmeyiz.</li>
+</ul>
+
+<h3>Konum (isteğe bağlı)</h3>
+<p>Yakındaki odaları bulmanızı sağlamak için konum izni istiyoruz. Bu izin tamamen <b>isteğe bağlıdır</b>; vermezseniz uygulama çalışır. Konumunuz yalnızca uygulama açıkken erişilir, <b>arka planda toplanmaz</b>. Hassas koordinatlar kullanıcı arayüzünde başka kullanıcılara gösterilmez; yalnızca coğrafi bölge kıyaslaması için geohash olarak işlenir.</p>
+
+<h3>Kamera izni</h3>
+<p>Parla, tribün ışık şovunda telefon flaşınızı açıp kapatmak için kamera iznine ihtiyaç duyar. <b>Fotoğraf veya video kaydı almaz, yüz verisi işlemez</b>. İzin yalnızca uygulama ön plandayken ve ışık şovu başlatıldığında kullanılır.</p>
+
+<h3>Biyometrik kimlik doğrulama</h3>
+<p>Biometrik (yüz veya parmak izi) doğrulamayı etkinleştirdiğinizde, biyometrik veriniz <b>cihazınızın güvenli donanımından (Secure Enclave / StrongBox) asla çıkmaz</b>. Parla sunucuları biyometrik verinizi görmez. Yalnızca cihazda üretilen bir genel anahtarın dijital imzasını doğrularız.</p>
+
+<h3>Kullanım verileri</h3>
+<ul>
+<li>Uygulama içi etkinlikler (oda katılımı, flaş olayları, sohbet mesaj sayısı) temel metrikler için anonim olarak toplanır.</li>
+<li>IP adresi, cihaz işletim sistemi ve uygulama sürümü hata ayıklama ve güvenlik kayıtları için işlenir.</li>
+</ul>
+
+<h3>Reklamlar</h3>
+<p>Uygulamada Google AdMob aracılığıyla reklam gösterilebilir. AdMob kendi gizlilik uygulamalarına sahiptir; ayrıntılar için <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">policies.google.com/technologies/ads</a> sayfasını inceleyebilirsiniz. Premium aboneliği seçen kullanıcılara reklam gösterilmez.</p>
+
+<h2>Verilerinizi Nasıl Koruyoruz</h2>
+<ul>
+<li>Tüm iletişim <b>TLS 1.2+</b> ile şifrelenir.</li>
+<li>Şifreler <code>bcrypt</code>, oturumlar kısa ömürlü <code>JWT</code> jetonları ile yönetilir.</li>
+<li>Biyometrik oturum açma <b>donanım destekli anahtarlarla</b> yapılır; özel anahtar cihazdan çıkmaz.</li>
+<li>Erişim denetimi: ban, askıya alma ve cihaz iptali gibi mekanizmalar her zaman sunucu tarafında uygulanır.</li>
+<li>Sunucu tarafı hız sınırı ve brute-force koruması (OWASP ASVS Level 2 ile uyumlu) etkindir.</li>
+</ul>
+
+<h2>Verilerin Paylaşımı</h2>
+<p>Kişisel verilerinizi <b>satmayız</b> ve pazarlama amacıyla üçüncü taraflara aktarmayız. Yalnızca şu durumlarda paylaşım söz konusudur:</p>
+<ul>
+<li>Uygulamanın çalışması için gerekli altyapı sağlayıcıları (örn. bulut sunucu, Google Play Store, Apple App Store, Google Firebase/AdMob).</li>
+<li>Yasal olarak zorunlu olan durumlar (mahkeme kararı, resmi talep).</li>
+</ul>
+
+<h2>Haklarınız (KVKK / GDPR)</h2>
+<p>KVKK ve GDPR kapsamında şu haklara sahipsiniz:</p>
+<ul>
+<li>Verilerinize erişim ve kopyalarını talep etme.</li>
+<li>Yanlış verilerin düzeltilmesini isteme.</li>
+<li>Hesabınızın ve tüm ilişkili verilerin silinmesini talep etme (uygulama içinde "Hesabı Sil" seçeneği).</li>
+<li>Pazarlama iletişiminden çıkma (hesap ayarlarından).</li>
+</ul>
+<p>Bu haklarınızı kullanmak veya sorularınız için <a href="mailto:bufrazsoftware@gmail.com">bufrazsoftware@gmail.com</a> adresine yazabilirsiniz.</p>
+
+<h2>Çocuklar</h2>
+<p>Parla 13 yaşın altındaki kullanıcılara yönelik değildir. Yaşınızın 13'ten küçük olduğunu öğrenirsek hesabınızı sileriz.</p>
+
+<h2>Değişiklikler</h2>
+<p>Bu politikayı güncelleyebiliriz. Önemli değişikliklerde uygulama içinde veya e-posta ile bildirim alırsınız.</p>
+
+<h2>İletişim</h2>
+<p>Veri sorumlusu: <b>Bufraz Software</b><br>
+E-posta: <a href="mailto:bufrazsoftware@gmail.com">bufrazsoftware@gmail.com</a></p>
+
+</body>
+</html>
