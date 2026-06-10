@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Opss — Gizlilik Politikası / Privacy Policy</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+         line-height: 1.6; max-width: 760px; margin: 0 auto; padding: 24px; }
+  h1 { font-size: 1.6rem; } h2 { font-size: 1.2rem; margin-top: 2rem; }
+  .meta { color: #888; font-size: 0.9rem; }
+  hr { border: none; border-top: 1px solid #ddd; margin: 3rem 0; }
+  a { color: #1a73e8; }
+  code { background: rgba(127,127,127,.15); padding: 1px 5px; border-radius: 4px; }
+</style>
+</head>
+<body>
+
+<h1>Opss — Gizlilik Politikası</h1>
+<p class="meta">Son güncelleme: 10 Haziran 2026</p>
+
+<p>Bufraz Software ("biz") tarafından geliştirilen <strong>Opss</strong> mobil oyunu ("Uygulama") için geçerli gizlilik politikasıdır. Bu metin, Uygulamanın hangi bilgileri işlediğini ve nasıl koruduğunu açıklar.</p>
+
+<h2>Özet</h2>
+<p>Opss bir kelime tahmin parti oyunudur. Sizden <strong>ad, e-posta veya parola istemiyoruz</strong>. Uygulama reklam gösterir ve çok oyunculu oyunları yürütmek için anonim bir oturum kullanır.</p>
+
+<h2>İşlediğimiz bilgiler</h2>
+<p><strong>Anonim oturum.</strong> Uygulamayı açtığınızda, arka uç sağlayıcımız (Supabase) üzerinden anonim bir hesap oluşturulur. Bu yalnızca rastgele bir tanımlayıcıdır; gerçek kimliğinize, adınıza, e-postanıza veya telefon numaranıza bağlı değildir.</p>
+<p><strong>Oyun verileri.</strong> Çok oyunculu odaları çalıştırmak için oda kodu, takım seçimi ve skorlar oyun süresince sunucularımızda işlenir.</p>
+<p><strong>Reklamlar (Google AdMob).</strong> Uygulama, Google AdMob aracılığıyla reklam gösterir. Reklamları sunmak ve ölçmek için Google ve iş ortakları, cihazın <strong>reklam kimliğini (Advertising ID)</strong> ve ilgili cihaz/kullanım bilgilerini toplayıp kullanabilir. Bu veriler reklam ve güvenlik/sahtekarlık önleme amaçlarıyla Google ile paylaşılır. Reklam kimliğinizi cihaz ayarlarından sıfırlayabilir veya sınırlayabilirsiniz (Ayarlar → Google → Reklamlar). Google'ın bu verileri nasıl kullandığı: <a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a></p>
+<p>Adınızı, e-posta adresinizi, kesin konumunuzu, kişilerinizi, fotoğraflarınızı veya dosyalarınızı <strong>toplamıyoruz</strong>.</p>
+
+<h2>Verilerin korunması</h2>
+<p>Tüm veriler şifreli bağlantılar (HTTPS/TLS) üzerinden iletilir.</p>
+
+<h2>Çocuklar</h2>
+<p>Opss 13 yaş ve üzeri kullanıcılar içindir; 13 yaş altı çocuklara yönelik değildir.</p>
+
+<h2>Saklama ve silme</h2>
+<p>Anonim oturum ve oyun verileri yalnızca oyunu çalıştırmak için gerektiği süre boyunca tutulur. Cihazınızla ilişkili verilerin silinmesini talep etmek için <a href="mailto:bufrazsoftware@gmail.com">bufrazsoftware@gmail.com</a> adresinden bize ulaşın. Reklam kimliğinizi istediğiniz zaman cihaz ayarlarından sıfırlayabilirsiniz.</p>
+
+<h2>Üçüncü taraf hizmetleri</h2>
+<ul>
+  <li>Google AdMob — <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></li>
+  <li>Supabase (arka uç) — <a href="https://supabase.com/privacy">supabase.com/privacy</a></li>
+</ul>
+
+<h2>Değişiklikler</h2>
+<p>Bu politikayı güncelleyebiliriz. Değişiklikler, yeni bir "Son güncelleme" tarihiyle bu sayfada yayımlanır.</p>
+
+<h2>İletişim</h2>
+<p>Bufraz Software — <a href="mailto:bufrazsoftware@gmail.com">bufrazsoftware@gmail.com</a></p>
+
+<hr>
+
+<h1>Opss — Privacy Policy</h1>
+<p class="meta">Last updated: 10 June 2026</p>
+
+<p>This Privacy Policy applies to the <strong>Opss</strong> mobile game (the "App"), developed by Bufraz Software ("we", "us"). It explains what information the App handles and how it is protected.</p>
+
+<h2>Summary</h2>
+<p>Opss is a party word-guessing game. We do <strong>not</strong> ask for your name, email, or password. The App shows ads and uses an anonymous session to run multiplayer games.</p>
+
+<h2>Information we handle</h2>
+<p><strong>Anonymous session.</strong> When you open the App, an anonymous account is created through our backend provider (Supabase). This is only a random identifier; it is not linked to your real-world identity, name, email, or phone number.</p>
+<p><strong>Gameplay data.</strong> To run multiplayer rooms, the room code, team selection, and scores are processed on our servers for the duration of the game.</p>
+<p><strong>Advertising (Google AdMob).</strong> The App displays ads through Google AdMob. To serve and measure ads, Google and its partners may collect and use the device <strong>Advertising ID</strong> and related device/usage information. This data is shared with Google for advertising and security/fraud-prevention purposes. You can reset or limit your advertising ID in your device settings (Settings → Google → Ads). Learn how Google uses this data: <a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a></p>
+<p>We do <strong>not</strong> collect your name, email address, precise location, contacts, photos, or files.</p>
+
+<h2>How data is protected</h2>
+<p>All data is transmitted over encrypted connections (HTTPS/TLS).</p>
+
+<h2>Children</h2>
+<p>Opss is intended for users aged 13 and older. It is not directed to children under 13.</p>
+
+<h2>Data retention &amp; deletion</h2>
+<p>Anonymous session and gameplay data are kept only as long as needed to operate the game. To request deletion of data associated with your device, contact us at <a href="mailto:bufrazsoftware@gmail.com">bufrazsoftware@gmail.com</a>. You can reset your advertising identifier at any time in your device settings.</p>
+
+<h2>Third-party services</h2>
+<ul>
+  <li>Google AdMob — <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></li>
+  <li>Supabase (backend) — <a href="https://supabase.com/privacy">supabase.com/privacy</a></li>
+</ul>
+
+<h2>Changes</h2>
+<p>We may update this policy. Changes will be posted on this page with a new "Last updated" date.</p>
+
+<h2>Contact</h2>
+<p>Bufraz Software — <a href="mailto:bufrazsoftware@gmail.com">bufrazsoftware@gmail.com</a></p>
+
+</body>
+</html>
